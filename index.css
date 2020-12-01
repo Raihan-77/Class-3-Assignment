@@ -1,0 +1,78 @@
+.bc{
+  background: gray;
+}
+body {
+     margin: 0;
+     padding: 0;
+}
+
+.square{
+  width: 200px;
+  height: 200px;
+  background: red;
+}
+
+.rectangle{
+  background: blue;
+  height: 200px;
+  width: 400px;
+}
+
+.circle{
+      background: green;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+}
+
+.oval{
+     background: yellow;
+     width: 180px;
+     height: 90px;
+     border-radius: 90px/45px;
+}
+
+.triangleup{
+     width: 0px;
+     height: 0px;
+     border-bottom: 200px solid purple;
+     border-left: 100px solid red;
+     border-right: 100px solid pink;
+}
+
+.triangleright{
+     width: 0px;
+     height: 0px;
+     border-left: 50px solid transparent;
+     border-right: 50px solid transparent;
+     border-top: 100px solid pink;
+}
+
+.White{
+  background: white;
+  height: 250px;
+  width: 500px;
+  position: relative;
+  
+}
+
+.red{
+  height: 150px;
+  width: 150px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  
+}
+
+.japan{
+  background: hotpink;
+  color: white;
+  padding: 20px 20px 20px 20px;
+  margin: 50px 300px;
+}
